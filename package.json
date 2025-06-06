@@ -1,20 +1,19 @@
 {
   "name": "story-book_test",
   "version": "1.0.0",
+  "description": "[書籍「フロントエンド開発のためのテスト入門」](https://www.shoeisha.co.jp/book/detail/9784798178189)のサンプルコードを写経するだけのリポジトリ3",
   "main": "index.js",
   "devDependencies": {
-    "@chromatic-com/storybook": "^4.0.0",
-    "@storybook/addon-a11y": "^9.0.4",
-    "@storybook/addon-docs": "^9.0.4",
-    "@storybook/addon-onboarding": "^9.0.4",
-    "@storybook/addon-vitest": "^9.0.4",
-    "@storybook/react-vite": "^9.0.4",
-    "@vitest/browser": "^3.2.0",
-    "@vitest/coverage-v8": "^3.2.0",
-    "playwright": "^1.52.0",
+    "@chromatic-com/storybook": "^3.2.6",
+    "@storybook/addon-essentials": "^8.6.0",
+    "@storybook/addon-interactions": "^8.6.0",
+    "@storybook/addon-onboarding": "^8.6.0",
+    "@storybook/blocks": "^8.6.0",
+    "@storybook/react": "^8.6.0",
+    "@storybook/react-vite": "^8.6.0",
+    "@storybook/test": "^8.6.0",
     "prop-types": "^15.8.1",
-    "storybook": "^9.0.4",
-    "vitest": "^3.2.0"
+    "storybook": "^8.6.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -24,7 +23,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
