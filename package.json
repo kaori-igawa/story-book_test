@@ -13,7 +13,8 @@
     "@storybook/react-vite": "^8.6.0",
     "@storybook/test": "^8.6.0",
     "prop-types": "^15.8.1",
-    "storybook": "^8.6.0"
+    "storybook": "^8.6.0",
+    "storycap": "^5.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
